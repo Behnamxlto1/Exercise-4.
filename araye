@@ -1,0 +1,11 @@
+import random
+list = []
+a = int(input("Enter number :"))
+while a > len(list) :
+    b = random.randint(1,50)
+    if b in list :
+        continue
+    else :
+        list.append(b)
+print(list) 
+print("    ",len(list))
